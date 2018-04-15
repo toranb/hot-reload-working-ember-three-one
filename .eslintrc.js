@@ -2,7 +2,10 @@ module.exports = {
   root: true,
   parserOptions: {
     ecmaVersion: 2017,
-    sourceType: 'module'
+    sourceType: 'module',
+    ecmaFeatures: {
+      'experimentalObjectRestSpread': true
+    }
   },
   plugins: [
     'ember'
@@ -20,8 +23,8 @@ module.exports = {
     // node files
     {
       files: [
-        'ember-cli-build.js',
         'testem.js',
+        'ember-cli-build.js',
         'config/**/*.js',
         'lib/*/index.js'
       ],
