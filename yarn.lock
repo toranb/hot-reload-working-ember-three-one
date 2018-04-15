@@ -2294,9 +2294,9 @@ ember-cli-get-component-path-option@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmjs.org/ember-cli-get-component-path-option/-/ember-cli-get-component-path-option-1.0.0.tgz#0d7b595559e2f9050abed804f1d8eff1b08bc771"
 
-ember-cli-hot-loader@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/ember-cli-hot-loader/-/ember-cli-hot-loader-0.2.0.tgz#30391bc295965b91d5c2a4838e3833ea6bb8e3c0"
+ember-cli-hot-loader@^0.2.1:
+  version "0.2.1"
+  resolved "https://registry.npmjs.org/ember-cli-hot-loader/-/ember-cli-hot-loader-0.2.1.tgz#32735fb415a16ad705aa0b8d4f8803e1a8fe921f"
   dependencies:
     ember-cli-babel "^6.6.0"
     ember-getowner-polyfill "^2.2.0"
